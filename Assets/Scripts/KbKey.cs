@@ -18,9 +18,15 @@ public class KbKey : MonoBehaviour
     private void Start()
     {
         Canvas canvas = GetComponentInChildren<Canvas>();
-        mainKey = canvas.transform.Find("Text").GetComponent<Text>(); // Shift, Enter, etc
-        mainKey = canvas.transform.Find("Text Main").GetComponent<Text>(); // Main key
-        subKey = canvas.transform.Find("Text Sub").GetComponent<Text>(); // Sub key
+        if (canvas)
+        {
+            canvas.transform.Find("Text").TryGetComponent(out mainKey); // Shift, Enter, etc
+            if (!mainKey)
+            {
+                canvas.transform.Find("Text Main").TryGetComponent(out mainKey); // Main key
+                canvas.transform.Find("Text Sub").TryGetComponent(out subKey); // Sub key
+            }
+        }
 
         keyboard = GetComponentInParent<Keyboard>();
         keyboard.kbKeys.Add(this);
@@ -67,18 +73,34 @@ public class KbKey : MonoBehaviour
         {
             if (mainKey)
             {
-                gameObject.name = "Key_" + mainKey.text; 
+                if (subKey)
+                {
+                    gameObject.name = "Key_" + mainKey.text + "-" + subKey.text;
+                } else
+                {
+                    gameObject.name = "Key_" + mainKey.text;
+                }
 
                 if (key == Keys.Symbol && mainKey.text.Length > 1)
                 {
                     Debug.LogError($"{gameObject.name} can't have more than 1 char in text field when it works as Keys.Symbol");
                 }
-            } else
+            }
+            else
             {
                 Canvas canvas = GetComponentInChildren<Canvas>();
-                mainKey = canvas.transform.Find("Text").GetComponent<Text>(); // Shift, Enter, etc
-                mainKey = canvas.transform.Find("Text Main").GetComponent<Text>(); // Main key
-                subKey = canvas.transform.Find("Text Sub").GetComponent<Text>(); // Sub key
+                if (canvas)
+                {
+                    if (canvas.transform.Find("Text"))
+                    {
+                        canvas.transform.Find("Text").TryGetComponent(out mainKey); // Shift, Enter, etc
+                    }
+                    else
+                    {
+                        canvas.transform.Find("Text Main").TryGetComponent(out mainKey); // Main key
+                        canvas.transform.Find("Text Sub").TryGetComponent(out subKey); // Sub key
+                    }
+                }
             }
         }
     }
