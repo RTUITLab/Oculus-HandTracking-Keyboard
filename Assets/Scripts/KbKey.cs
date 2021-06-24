@@ -17,17 +17,6 @@ public class KbKey : MonoBehaviour
 
     private void Start()
     {
-        Canvas canvas = GetComponentInChildren<Canvas>();
-        if (canvas)
-        {
-            canvas.transform.Find("Text").TryGetComponent(out mainKey); // Shift, Enter, etc
-            if (!mainKey)
-            {
-                canvas.transform.Find("Text Main").TryGetComponent(out mainKey); // Main key
-                canvas.transform.Find("Text Sub").TryGetComponent(out subKey); // Sub key
-            }
-        }
-
         keyboard = GetComponentInParent<Keyboard>();
         keyboard.kbKeys.Add(this);
     }
@@ -51,6 +40,10 @@ public class KbKey : MonoBehaviour
             case Keys.Space:
                 keyboard.AddChar(' ');
                 break;
+            case Keys.Tab:
+                for (int i = 0; i < 4; i++)
+                    keyboard.AddChar(' ');      
+                break;
             case Keys.Caps:
                 keyboard.ToggleCaps();
                 break;
@@ -71,12 +64,20 @@ public class KbKey : MonoBehaviour
     {
         if (Application.isEditor && !Application.isPlaying)
         {
+            Canvas canvas = GetComponentInChildren<Canvas>();
+
+            if (canvas)
+            {
+                canvas.name = "Canvas";
+            }
+
             if (mainKey)
             {
                 if (subKey)
                 {
                     gameObject.name = "Key_" + mainKey.text + "-" + subKey.text;
-                } else
+                }
+                else
                 {
                     gameObject.name = "Key_" + mainKey.text;
                 }
@@ -88,7 +89,6 @@ public class KbKey : MonoBehaviour
             }
             else
             {
-                Canvas canvas = GetComponentInChildren<Canvas>();
                 if (canvas)
                 {
                     if (canvas.transform.Find("Text"))
@@ -110,5 +110,5 @@ public class KbKey : MonoBehaviour
 public enum Keys
 {
     None, Symbol, Enter, Space, Caps,
-    Clear, Backspace, SwitchLayout
+    Clear, Backspace, Tab, SwitchLayout
 }
