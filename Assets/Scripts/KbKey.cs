@@ -23,7 +23,8 @@ public class KbKey : MonoBehaviour
 
     public void KeyClicked()
     {
-        Debug.Log(key);
+        keyboard.PlayClickSound();
+
         switch (key)
         {
             case Keys.Symbol: // Standard key. Gets value from child's Text field.
