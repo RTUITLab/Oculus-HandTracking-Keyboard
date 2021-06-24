@@ -9,12 +9,18 @@ public class KbKey : MonoBehaviour
 {
     [SerializeField] private Keys key;
 
+    // If key = Keys.Symbol
+    private Text mainKey;
+    private Text subKey;
+
     private Keyboard keyboard;
-    private Text keyField;
 
     private void Start()
     {
-        keyField = GetComponentInChildren<Text>();
+        Canvas canvas = GetComponentInChildren<Canvas>();
+        mainKey = canvas.transform.Find("Text").GetComponent<Text>(); // Shift, Enter, etc
+        mainKey = canvas.transform.Find("Text Main").GetComponent<Text>(); // Main key
+        subKey = canvas.transform.Find("Text Sub").GetComponent<Text>(); // Sub key
 
         keyboard = GetComponentInParent<Keyboard>();
         keyboard.kbKeys.Add(this);
@@ -26,7 +32,11 @@ public class KbKey : MonoBehaviour
         switch (key)
         {
             case Keys.Symbol: // Standard key. Gets value from child's Text field.
-                char symbol = keyField.text[0];
+                char symbol;
+                if (keyboard.IsMainLayout)
+                    symbol = mainKey.text[0];
+                else
+                    symbol = subKey.text[0];
                 keyboard.AddChar(symbol);
                 break;
             case Keys.Enter:
@@ -55,14 +65,20 @@ public class KbKey : MonoBehaviour
     {
         if (Application.isEditor && !Application.isPlaying)
         {
-            if (keyField)
+            if (mainKey)
             {
-                gameObject.name = "Key_" + keyField.text; 
+                gameObject.name = "Key_" + mainKey.text; 
 
-                if (key == Keys.Symbol && keyField.text.Length > 1)
+                if (key == Keys.Symbol && mainKey.text.Length > 1)
                 {
                     Debug.LogError($"{gameObject.name} can't have more than 1 char in text field when it works as Keys.Symbol");
                 }
+            } else
+            {
+                Canvas canvas = GetComponentInChildren<Canvas>();
+                mainKey = canvas.transform.Find("Text").GetComponent<Text>(); // Shift, Enter, etc
+                mainKey = canvas.transform.Find("Text Main").GetComponent<Text>(); // Main key
+                subKey = canvas.transform.Find("Text Sub").GetComponent<Text>(); // Sub key
             }
         }
     }

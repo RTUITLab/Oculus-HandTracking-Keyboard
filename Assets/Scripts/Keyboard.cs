@@ -8,29 +8,7 @@ public class Keyboard : MonoBehaviour
     [HideInInspector] public List<KbKey> kbKeys;
     [Multiline] public string Text;
     private bool capsPressed = true;
-
-    [SerializeField] private GameObject[] layouts;
-    private int currentLayout = 0;
-
-    [SerializeField] private GameObject layoutParent;
-
-    private void Start()
-    {
-        foreach (var layout in layouts) layout.SetActive(false);
-        layouts[currentLayout].SetActive(true);
-    }
-
-    public void Enable()
-    {
-        layoutParent.SetActive(true);
-    }
-
-    public void Disable()
-    {
-        layoutParent.SetActive(false);
-    }
-
-    #region Input
+    public bool IsMainLayout = true; // English, else Russian
 
     public void AddChar(char input)
     {
@@ -63,17 +41,8 @@ public class Keyboard : MonoBehaviour
         capsPressed = !capsPressed;
     }
 
-    #endregion
-
-    #region Layouts
-
     public void ChangeLayout()
     {
-        layouts[currentLayout].SetActive(false);
-        currentLayout++;
-        currentLayout %= layouts.Length;
-        layouts[currentLayout].SetActive(true);
+        IsMainLayout = !IsMainLayout;
     }
-
-    #endregion
 }
