@@ -1,0 +1,597 @@
+fileFormatVersion: 2
+guid: 165cff00f45a3174cb63097cf1dae45f
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -4064532029014869935
+    second: Cube.001|Cube.001Action.001
+  - first:
+      74: -7512507484642768721
+    second: Cube.001|Cube.007Action.001
+  - first:
+      74: 9160435978030144418
+    second: Cube.001|Cube.051Action.001
+  - first:
+      74: -4713992260227300396
+    second: Cube.001|Cube.053Action.001
+  - first:
+      74: -5995526493305901828
+    second: Cube.001|Cube.055Action.001
+  - first:
+      74: 4020737508006783425
+    second: Cube.001|Cube.057Action.001
+  - first:
+      74: 7948004204614494953
+    second: Cube.001|Cube.062Action.001
+  - first:
+      74: -1429475587472722812
+    second: Cube.001|Cube.064Action.001
+  - first:
+      74: 3695758680677144517
+    second: Cube.001|Cube.071Action.001
+  - first:
+      74: -671548330325464280
+    second: Cube.001|Cube.073Action.001
+  - first:
+      74: 6285201600809761942
+    second: Cube.007|Cube.001Action.001
+  - first:
+      74: -1329958547110465976
+    second: Cube.007|Cube.007Action.001
+  - first:
+      74: 308095713213437580
+    second: Cube.007|Cube.051Action.001
+  - first:
+      74: -1759691536002918237
+    second: Cube.007|Cube.053Action.001
+  - first:
+      74: -1682494685147307708
+    second: Cube.007|Cube.055Action.001
+  - first:
+      74: -7408994009055206036
+    second: Cube.007|Cube.057Action.001
+  - first:
+      74: 1985429321140770217
+    second: Cube.007|Cube.062Action.001
+  - first:
+      74: 319829199066180340
+    second: Cube.007|Cube.064Action.001
+  - first:
+      74: -4716592595089457115
+    second: Cube.007|Cube.071Action.001
+  - first:
+      74: 7766534000028499752
+    second: Cube.007|Cube.073Action.001
+  - first:
+      74: -562257700066818605
+    second: Cube.051|Cube.001Action.001
+  - first:
+      74: -4111630419776961718
+    second: Cube.051|Cube.007Action.001
+  - first:
+      74: 351343330789062016
+    second: Cube.051|Cube.051Action.001
+  - first:
+      74: 6317431353989479583
+    second: Cube.051|Cube.053Action.001
+  - first:
+      74: 2690793918722949140
+    second: Cube.051|Cube.055Action.001
+  - first:
+      74: 126069179823382901
+    second: Cube.051|Cube.057Action.001
+  - first:
+      74: -2745740246311659299
+    second: Cube.051|Cube.062Action.001
+  - first:
+      74: 8450412896567765365
+    second: Cube.051|Cube.064Action.001
+  - first:
+      74: 3327846612024143664
+    second: Cube.051|Cube.071Action.001
+  - first:
+      74: 6339695218574555337
+    second: Cube.051|Cube.073Action.001
+  - first:
+      74: -9071517447187929583
+    second: Cube.053|Cube.001Action.001
+  - first:
+      74: 216363286453183482
+    second: Cube.053|Cube.007Action.001
+  - first:
+      74: 5749411059629175885
+    second: Cube.053|Cube.051Action.001
+  - first:
+      74: 3341798146432406011
+    second: Cube.053|Cube.053Action.001
+  - first:
+      74: -7552699672233943034
+    second: Cube.053|Cube.055Action.001
+  - first:
+      74: 7996872532674557500
+    second: Cube.053|Cube.057Action.001
+  - first:
+      74: 5491488111742286093
+    second: Cube.053|Cube.062Action.001
+  - first:
+      74: -2655745618587646722
+    second: Cube.053|Cube.064Action.001
+  - first:
+      74: -6158226037182439130
+    second: Cube.053|Cube.071Action.001
+  - first:
+      74: -1278519418514717068
+    second: Cube.053|Cube.073Action.001
+  - first:
+      74: -1789072576935057483
+    second: Cube.055|Cube.001Action.001
+  - first:
+      74: -6933496495269805476
+    second: Cube.055|Cube.007Action.001
+  - first:
+      74: 33231003132527935
+    second: Cube.055|Cube.051Action.001
+  - first:
+      74: -3495770404589621778
+    second: Cube.055|Cube.053Action.001
+  - first:
+      74: 7113295132303747066
+    second: Cube.055|Cube.055Action.001
+  - first:
+      74: -207579673350859459
+    second: Cube.055|Cube.057Action.001
+  - first:
+      74: -5680795450513788699
+    second: Cube.055|Cube.062Action.001
+  - first:
+      74: 846143628335773588
+    second: Cube.055|Cube.064Action.001
+  - first:
+      74: -1442741097235509371
+    second: Cube.055|Cube.071Action.001
+  - first:
+      74: 5422199583565267510
+    second: Cube.055|Cube.073Action.001
+  - first:
+      74: -8569275403798766430
+    second: Cube.057|Cube.001Action.001
+  - first:
+      74: -6451039576125942944
+    second: Cube.057|Cube.007Action.001
+  - first:
+      74: -9048615061425374826
+    second: Cube.057|Cube.051Action.001
+  - first:
+      74: -4486010345890990056
+    second: Cube.057|Cube.053Action.001
+  - first:
+      74: 4117293934624912016
+    second: Cube.057|Cube.055Action.001
+  - first:
+      74: 2477176804029191798
+    second: Cube.057|Cube.057Action.001
+  - first:
+      74: -9092052544767674507
+    second: Cube.057|Cube.062Action.001
+  - first:
+      74: 6557029931643267838
+    second: Cube.057|Cube.064Action.001
+  - first:
+      74: -3719485966323535052
+    second: Cube.057|Cube.071Action.001
+  - first:
+      74: -5152437811822585558
+    second: Cube.057|Cube.073Action.001
+  - first:
+      74: 4939180132677321438
+    second: Cube.062|Cube.001Action.001
+  - first:
+      74: 6769148396556053971
+    second: Cube.062|Cube.007Action.001
+  - first:
+      74: -6943351193345458076
+    second: Cube.062|Cube.051Action.001
+  - first:
+      74: 5326710537835940062
+    second: Cube.062|Cube.053Action.001
+  - first:
+      74: -4054813460370182231
+    second: Cube.062|Cube.055Action.001
+  - first:
+      74: -1452188411914043681
+    second: Cube.062|Cube.057Action.001
+  - first:
+      74: 5787299094378330939
+    second: Cube.062|Cube.062Action.001
+  - first:
+      74: -7481342202809505204
+    second: Cube.062|Cube.064Action.001
+  - first:
+      74: 6155245600993497418
+    second: Cube.062|Cube.071Action.001
+  - first:
+      74: 5745190692793558418
+    second: Cube.062|Cube.073Action.001
+  - first:
+      74: -7763278008675849990
+    second: Cube.064|Cube.001Action.001
+  - first:
+      74: 6845791112359662320
+    second: Cube.064|Cube.007Action.001
+  - first:
+      74: 8302361335901160075
+    second: Cube.064|Cube.051Action.001
+  - first:
+      74: -7890454158939531242
+    second: Cube.064|Cube.053Action.001
+  - first:
+      74: 6057076810193245218
+    second: Cube.064|Cube.055Action.001
+  - first:
+      74: -977004333448387341
+    second: Cube.064|Cube.057Action.001
+  - first:
+      74: 3545735418447431645
+    second: Cube.064|Cube.062Action.001
+  - first:
+      74: -3452043149602097216
+    second: Cube.064|Cube.064Action.001
+  - first:
+      74: 8562442292552293833
+    second: Cube.064|Cube.071Action.001
+  - first:
+      74: 2748287359828506869
+    second: Cube.064|Cube.073Action.001
+  - first:
+      74: -4454351320464132124
+    second: Cube.071|Cube.001Action.001
+  - first:
+      74: -767823211692892720
+    second: Cube.071|Cube.007Action.001
+  - first:
+      74: 2624190456970589877
+    second: Cube.071|Cube.051Action.001
+  - first:
+      74: -3698305105723624062
+    second: Cube.071|Cube.053Action.001
+  - first:
+      74: -7140575145752937464
+    second: Cube.071|Cube.055Action.001
+  - first:
+      74: -30554465025948318
+    second: Cube.071|Cube.057Action.001
+  - first:
+      74: -5880308080660436010
+    second: Cube.071|Cube.062Action.001
+  - first:
+      74: 9210825256401237285
+    second: Cube.071|Cube.064Action.001
+  - first:
+      74: -729799281474166224
+    second: Cube.071|Cube.071Action.001
+  - first:
+      74: -4823998049595538652
+    second: Cube.071|Cube.073Action.001
+  - first:
+      74: -9148124265694997993
+    second: Cube.073|Cube.001Action.001
+  - first:
+      74: -8443493006529694765
+    second: Cube.073|Cube.007Action.001
+  - first:
+      74: -4129264617735999365
+    second: Cube.073|Cube.051Action.001
+  - first:
+      74: 1886774450986408676
+    second: Cube.073|Cube.053Action.001
+  - first:
+      74: 2791354224774858429
+    second: Cube.073|Cube.055Action.001
+  - first:
+      74: -8961779219964154505
+    second: Cube.073|Cube.057Action.001
+  - first:
+      74: 2723490997980213760
+    second: Cube.073|Cube.062Action.001
+  - first:
+      74: -5582954327011514979
+    second: Cube.073|Cube.064Action.001
+  - first:
+      74: -8877070476410617129
+    second: Cube.073|Cube.071Action.001
+  - first:
+      74: -8088328555648105181
+    second: Cube.073|Cube.073Action.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.001
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.002
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.003
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.004
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.005
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.006
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.007
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.008
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.009
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.010
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.011
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.012
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.013
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.014
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.015
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.016
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.017
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.018
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch bottom.019
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.001
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.002
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.003
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.004
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.005
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.006
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.007
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.008
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.009
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.010
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.011
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.012
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.013
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.014
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.015
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.016
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.017
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.018
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: switch.019
+    second: {fileID: 2100000, guid: 3be4a41eec1eef847a0be939ee1c462d, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
