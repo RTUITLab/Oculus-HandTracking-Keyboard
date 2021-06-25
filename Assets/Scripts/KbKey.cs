@@ -17,13 +17,17 @@ public class KbKey : MonoBehaviour
     private bool canActivate = true;
 
     // Press Animation
-    private readonly float pressSpeed = 20f;
-    private readonly float returnSpeed = 5f;   
-    private readonly float defaultPosition = 0.0006601214f;
-    private readonly float pressedPosition = -0.002550002f;
+    private readonly float pressSpeed = 25f;
+    private readonly float returnSpeed = 15f;
+    private readonly float travelDistance = 0.004f;
+    private float defaultPosition;
+    private float pressedPosition;
 
     private void Start()
     {
+        defaultPosition = transform.localPosition.y;
+        pressedPosition = defaultPosition - travelDistance;
+
         keyboard = GetComponentInParent<Keyboard>();
         keyboard.kbKeys.Add(this);
     }
@@ -32,9 +36,14 @@ public class KbKey : MonoBehaviour
     {
         if (!canActivate) return;
 
+        ClickAction();
+
         keyboard.PlayClickSound();
         StartCoroutine(ClickAnimation());
+    }
 
+    private void ClickAction()
+    {
         switch (key)
         {
             case Keys.Symbol: // Standard key. Gets value from child's Text field.
@@ -53,7 +62,7 @@ public class KbKey : MonoBehaviour
                 break;
             case Keys.Tab:
                 for (int i = 0; i < 4; i++)
-                    keyboard.AddChar(' ');      
+                    keyboard.AddChar(' ');
                 break;
             case Keys.Caps:
                 keyboard.ToggleCaps();
