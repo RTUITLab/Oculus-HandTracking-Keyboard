@@ -29,7 +29,7 @@ namespace OculusSampleFramework
 		[SerializeField] private ContactTest[] _contactTests = null;
 		// for positive side tests, the contact position must be on the positive side of the plane
 		// determined by this transform
-		[SerializeField] private Transform _buttonPlaneCenter = null;
+		public Transform ButtonPlaneCenter = null;
 
 		// make sure press is coming from "positive" side of button, i.e. above it
 		[SerializeField] private bool _makeSureToolIsOnPositiveSide = true;
@@ -70,7 +70,7 @@ namespace OculusSampleFramework
 			Assert.IsNotNull(_proximityZone);
 			Assert.IsNotNull(_contactZone);
 			Assert.IsNotNull(_actionZone);
-			Assert.IsNotNull(_buttonPlaneCenter);
+			Assert.IsNotNull(ButtonPlaneCenter);
 
 			foreach (var interactableToolTags in _allValidToolsTags)
 			{
@@ -148,7 +148,7 @@ namespace OculusSampleFramework
 			else
 			{
 				// plane describing positive side of button
-				var buttonZonePlane = new Plane(-currButtonDirection, _buttonPlaneCenter.position);
+				var buttonZonePlane = new Plane(-currButtonDirection, ButtonPlaneCenter.position);
 				// skip plane test if the boolean flag tells us not to test it
 				bool onPositiveSideOfButton = !_makeSureToolIsOnPositiveSide ||
 				  buttonZonePlane.GetSide(interactableTool.InteractionPosition);
