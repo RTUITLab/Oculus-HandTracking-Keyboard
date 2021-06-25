@@ -31,6 +31,8 @@ public class KbKey : MonoBehaviour
 
         keyboard = GetComponentInParent<Keyboard>();
         keyboard.kbKeys.Add(this);
+
+        TryGetSymbolFields();
     }
 
     public void KeyClicked()
@@ -107,6 +109,24 @@ public class KbKey : MonoBehaviour
         canActivate = true;
     }
 
+    private void TryGetSymbolFields()
+    {
+        Canvas canvas = GetComponentInChildren<Canvas>();
+
+        if (canvas)
+        {
+            if (canvas.transform.Find("Text"))
+            {
+                canvas.transform.Find("Text").TryGetComponent(out mainKey); // Shift, Enter, etc
+            }
+            else
+            {
+                canvas.transform.Find("Text Main").TryGetComponent(out mainKey); // Main key
+                canvas.transform.Find("Text Sub").TryGetComponent(out subKey); // Sub key
+            }
+        }
+    }
+
 #if UNITY_EDITOR
     private void Update()
     {
@@ -137,18 +157,7 @@ public class KbKey : MonoBehaviour
             }
             else
             {
-                if (canvas)
-                {
-                    if (canvas.transform.Find("Text"))
-                    {
-                        canvas.transform.Find("Text").TryGetComponent(out mainKey); // Shift, Enter, etc
-                    }
-                    else
-                    {
-                        canvas.transform.Find("Text Main").TryGetComponent(out mainKey); // Main key
-                        canvas.transform.Find("Text Sub").TryGetComponent(out subKey); // Sub key
-                    }
-                }
+                TryGetSymbolFields();
             }
         }
     }
