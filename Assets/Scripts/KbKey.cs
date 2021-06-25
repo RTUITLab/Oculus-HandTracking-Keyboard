@@ -14,6 +14,13 @@ public class KbKey : MonoBehaviour
     private Text subKey;
 
     private Keyboard keyboard;
+    private bool canActivate = true;
+
+    // Press Animation
+    private readonly float pressSpeed = 20f;
+    private readonly float returnSpeed = 5f;   
+    private readonly float defaultPosition = 0.0006601214f;
+    private readonly float pressedPosition = -0.002550002f;
 
     private void Start()
     {
@@ -23,7 +30,10 @@ public class KbKey : MonoBehaviour
 
     public void KeyClicked()
     {
+        if (!canActivate) return;
+
         keyboard.PlayClickSound();
+        StartCoroutine(ClickAnimation());
 
         switch (key)
         {
@@ -58,6 +68,33 @@ public class KbKey : MonoBehaviour
                 keyboard.ChangeLayout();
                 break;
         }
+    }
+
+    private IEnumerator ClickAnimation()
+    {
+        canActivate = false;
+        Vector3 position = transform.localPosition;
+
+        while (position.y > pressedPosition)
+        {
+            yield return new WaitForSeconds(0.02f);
+            position.y -= pressSpeed * 0.00005f;
+            transform.localPosition = position;   
+        }
+
+        position.y = pressedPosition;
+        transform.localPosition = position;
+
+        while (position.y < defaultPosition)
+        {
+            yield return new WaitForSeconds(0.02f);
+            position.y += returnSpeed * 0.00005f;
+            transform.localPosition = position;
+        }
+
+        position.y = defaultPosition;
+        transform.localPosition = position;
+        canActivate = true;
     }
 
 #if UNITY_EDITOR

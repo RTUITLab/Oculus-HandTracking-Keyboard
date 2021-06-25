@@ -499,6 +499,411 @@ MonoBehaviour:
   - {fileID: 338749953}
   - {fileID: 338749954}
   - {fileID: 338749955}
+  - {fileID: 338749875}
+  - {fileID: 338749876}
+  - {fileID: 338749877}
+  - {fileID: 338749878}
+  - {fileID: 338749879}
+  - {fileID: 338749880}
+  - {fileID: 338749881}
+  - {fileID: 338749882}
+  - {fileID: 338749883}
+  - {fileID: 338749884}
+  - {fileID: 338749885}
+  - {fileID: 338749886}
+  - {fileID: 338749887}
+  - {fileID: 338749888}
+  - {fileID: 338749889}
+  - {fileID: 338749890}
+  - {fileID: 338749891}
+  - {fileID: 338749892}
+  - {fileID: 338749893}
+  - {fileID: 338749894}
+  - {fileID: 338749895}
+  - {fileID: 338749896}
+  - {fileID: 338749897}
+  - {fileID: 338749898}
+  - {fileID: 338749899}
+  - {fileID: 338749900}
+  - {fileID: 338749901}
+  - {fileID: 338749902}
+  - {fileID: 338749903}
+  - {fileID: 338749904}
+  - {fileID: 338749905}
+  - {fileID: 338749906}
+  - {fileID: 338749907}
+  - {fileID: 338749908}
+  - {fileID: 338749909}
+  - {fileID: 338749910}
+  - {fileID: 338749911}
+  - {fileID: 338749912}
+  - {fileID: 338749913}
+  - {fileID: 338749914}
+  - {fileID: 338749915}
+  - {fileID: 338749916}
+  - {fileID: 338749917}
+  - {fileID: 338749918}
+  - {fileID: 338749919}
+  - {fileID: 338749920}
+  - {fileID: 338749921}
+  - {fileID: 338749922}
+  - {fileID: 338749923}
+  - {fileID: 338749924}
+  - {fileID: 338749925}
+  - {fileID: 338749926}
+  - {fileID: 338749927}
+  - {fileID: 338749928}
+  - {fileID: 338749929}
+  - {fileID: 338749930}
+  - {fileID: 338749931}
+  - {fileID: 338749932}
+  - {fileID: 338749933}
+  - {fileID: 338749934}
+  - {fileID: 338749935}
+  - {fileID: 338749936}
+  - {fileID: 338749937}
+  - {fileID: 338749938}
+  - {fileID: 338749939}
+  - {fileID: 338749940}
+  - {fileID: 338749941}
+  - {fileID: 338749942}
+  - {fileID: 338749943}
+  - {fileID: 338749944}
+  - {fileID: 338749945}
+  - {fileID: 338749946}
+  - {fileID: 338749947}
+  - {fileID: 338749948}
+  - {fileID: 338749949}
+  - {fileID: 338749950}
+  - {fileID: 338749951}
+  - {fileID: 338749952}
+  - {fileID: 338749953}
+  - {fileID: 338749954}
+  - {fileID: 338749955}
+  - {fileID: 338749875}
+  - {fileID: 338749876}
+  - {fileID: 338749877}
+  - {fileID: 338749878}
+  - {fileID: 338749879}
+  - {fileID: 338749880}
+  - {fileID: 338749881}
+  - {fileID: 338749882}
+  - {fileID: 338749883}
+  - {fileID: 338749884}
+  - {fileID: 338749885}
+  - {fileID: 338749886}
+  - {fileID: 338749887}
+  - {fileID: 338749888}
+  - {fileID: 338749889}
+  - {fileID: 338749890}
+  - {fileID: 338749891}
+  - {fileID: 338749892}
+  - {fileID: 338749893}
+  - {fileID: 338749894}
+  - {fileID: 338749895}
+  - {fileID: 338749896}
+  - {fileID: 338749897}
+  - {fileID: 338749898}
+  - {fileID: 338749899}
+  - {fileID: 338749900}
+  - {fileID: 338749901}
+  - {fileID: 338749902}
+  - {fileID: 338749903}
+  - {fileID: 338749904}
+  - {fileID: 338749905}
+  - {fileID: 338749906}
+  - {fileID: 338749907}
+  - {fileID: 338749908}
+  - {fileID: 338749909}
+  - {fileID: 338749910}
+  - {fileID: 338749911}
+  - {fileID: 338749912}
+  - {fileID: 338749913}
+  - {fileID: 338749914}
+  - {fileID: 338749915}
+  - {fileID: 338749916}
+  - {fileID: 338749917}
+  - {fileID: 338749918}
+  - {fileID: 338749919}
+  - {fileID: 338749920}
+  - {fileID: 338749921}
+  - {fileID: 338749922}
+  - {fileID: 338749923}
+  - {fileID: 338749924}
+  - {fileID: 338749925}
+  - {fileID: 338749926}
+  - {fileID: 338749927}
+  - {fileID: 338749928}
+  - {fileID: 338749929}
+  - {fileID: 338749930}
+  - {fileID: 338749931}
+  - {fileID: 338749932}
+  - {fileID: 338749933}
+  - {fileID: 338749934}
+  - {fileID: 338749935}
+  - {fileID: 338749936}
+  - {fileID: 338749937}
+  - {fileID: 338749938}
+  - {fileID: 338749939}
+  - {fileID: 338749940}
+  - {fileID: 338749941}
+  - {fileID: 338749942}
+  - {fileID: 338749943}
+  - {fileID: 338749944}
+  - {fileID: 338749945}
+  - {fileID: 338749946}
+  - {fileID: 338749947}
+  - {fileID: 338749948}
+  - {fileID: 338749949}
+  - {fileID: 338749950}
+  - {fileID: 338749951}
+  - {fileID: 338749952}
+  - {fileID: 338749953}
+  - {fileID: 338749954}
+  - {fileID: 338749955}
+  - {fileID: 338749875}
+  - {fileID: 338749876}
+  - {fileID: 338749877}
+  - {fileID: 338749878}
+  - {fileID: 338749879}
+  - {fileID: 338749880}
+  - {fileID: 338749881}
+  - {fileID: 338749882}
+  - {fileID: 338749883}
+  - {fileID: 338749884}
+  - {fileID: 338749885}
+  - {fileID: 338749886}
+  - {fileID: 338749887}
+  - {fileID: 338749888}
+  - {fileID: 338749889}
+  - {fileID: 338749890}
+  - {fileID: 338749891}
+  - {fileID: 338749892}
+  - {fileID: 338749893}
+  - {fileID: 338749894}
+  - {fileID: 338749895}
+  - {fileID: 338749896}
+  - {fileID: 338749897}
+  - {fileID: 338749898}
+  - {fileID: 338749899}
+  - {fileID: 338749900}
+  - {fileID: 338749901}
+  - {fileID: 338749902}
+  - {fileID: 338749903}
+  - {fileID: 338749904}
+  - {fileID: 338749905}
+  - {fileID: 338749906}
+  - {fileID: 338749907}
+  - {fileID: 338749908}
+  - {fileID: 338749909}
+  - {fileID: 338749910}
+  - {fileID: 338749911}
+  - {fileID: 338749912}
+  - {fileID: 338749913}
+  - {fileID: 338749914}
+  - {fileID: 338749915}
+  - {fileID: 338749916}
+  - {fileID: 338749917}
+  - {fileID: 338749918}
+  - {fileID: 338749919}
+  - {fileID: 338749920}
+  - {fileID: 338749921}
+  - {fileID: 338749922}
+  - {fileID: 338749923}
+  - {fileID: 338749924}
+  - {fileID: 338749925}
+  - {fileID: 338749926}
+  - {fileID: 338749927}
+  - {fileID: 338749928}
+  - {fileID: 338749929}
+  - {fileID: 338749930}
+  - {fileID: 338749931}
+  - {fileID: 338749932}
+  - {fileID: 338749933}
+  - {fileID: 338749934}
+  - {fileID: 338749935}
+  - {fileID: 338749936}
+  - {fileID: 338749937}
+  - {fileID: 338749938}
+  - {fileID: 338749939}
+  - {fileID: 338749940}
+  - {fileID: 338749941}
+  - {fileID: 338749942}
+  - {fileID: 338749943}
+  - {fileID: 338749944}
+  - {fileID: 338749945}
+  - {fileID: 338749946}
+  - {fileID: 338749947}
+  - {fileID: 338749948}
+  - {fileID: 338749949}
+  - {fileID: 338749950}
+  - {fileID: 338749951}
+  - {fileID: 338749952}
+  - {fileID: 338749953}
+  - {fileID: 338749954}
+  - {fileID: 338749955}
+  - {fileID: 338749875}
+  - {fileID: 338749876}
+  - {fileID: 338749877}
+  - {fileID: 338749878}
+  - {fileID: 338749879}
+  - {fileID: 338749880}
+  - {fileID: 338749881}
+  - {fileID: 338749882}
+  - {fileID: 338749883}
+  - {fileID: 338749884}
+  - {fileID: 338749885}
+  - {fileID: 338749886}
+  - {fileID: 338749887}
+  - {fileID: 338749888}
+  - {fileID: 338749889}
+  - {fileID: 338749890}
+  - {fileID: 338749891}
+  - {fileID: 338749892}
+  - {fileID: 338749893}
+  - {fileID: 338749894}
+  - {fileID: 338749895}
+  - {fileID: 338749896}
+  - {fileID: 338749897}
+  - {fileID: 338749898}
+  - {fileID: 338749899}
+  - {fileID: 338749900}
+  - {fileID: 338749901}
+  - {fileID: 338749902}
+  - {fileID: 338749903}
+  - {fileID: 338749904}
+  - {fileID: 338749905}
+  - {fileID: 338749906}
+  - {fileID: 338749907}
+  - {fileID: 338749908}
+  - {fileID: 338749909}
+  - {fileID: 338749910}
+  - {fileID: 338749911}
+  - {fileID: 338749912}
+  - {fileID: 338749913}
+  - {fileID: 338749914}
+  - {fileID: 338749915}
+  - {fileID: 338749916}
+  - {fileID: 338749917}
+  - {fileID: 338749918}
+  - {fileID: 338749919}
+  - {fileID: 338749920}
+  - {fileID: 338749921}
+  - {fileID: 338749922}
+  - {fileID: 338749923}
+  - {fileID: 338749924}
+  - {fileID: 338749925}
+  - {fileID: 338749926}
+  - {fileID: 338749927}
+  - {fileID: 338749928}
+  - {fileID: 338749929}
+  - {fileID: 338749930}
+  - {fileID: 338749931}
+  - {fileID: 338749932}
+  - {fileID: 338749933}
+  - {fileID: 338749934}
+  - {fileID: 338749935}
+  - {fileID: 338749936}
+  - {fileID: 338749937}
+  - {fileID: 338749938}
+  - {fileID: 338749939}
+  - {fileID: 338749940}
+  - {fileID: 338749941}
+  - {fileID: 338749942}
+  - {fileID: 338749943}
+  - {fileID: 338749944}
+  - {fileID: 338749945}
+  - {fileID: 338749946}
+  - {fileID: 338749947}
+  - {fileID: 338749948}
+  - {fileID: 338749949}
+  - {fileID: 338749950}
+  - {fileID: 338749951}
+  - {fileID: 338749952}
+  - {fileID: 338749953}
+  - {fileID: 338749954}
+  - {fileID: 338749955}
+  - {fileID: 338749875}
+  - {fileID: 338749876}
+  - {fileID: 338749877}
+  - {fileID: 338749878}
+  - {fileID: 338749879}
+  - {fileID: 338749880}
+  - {fileID: 338749881}
+  - {fileID: 338749882}
+  - {fileID: 338749883}
+  - {fileID: 338749884}
+  - {fileID: 338749885}
+  - {fileID: 338749886}
+  - {fileID: 338749887}
+  - {fileID: 338749888}
+  - {fileID: 338749889}
+  - {fileID: 338749890}
+  - {fileID: 338749891}
+  - {fileID: 338749892}
+  - {fileID: 338749893}
+  - {fileID: 338749894}
+  - {fileID: 338749895}
+  - {fileID: 338749896}
+  - {fileID: 338749897}
+  - {fileID: 338749898}
+  - {fileID: 338749899}
+  - {fileID: 338749900}
+  - {fileID: 338749901}
+  - {fileID: 338749902}
+  - {fileID: 338749903}
+  - {fileID: 338749904}
+  - {fileID: 338749905}
+  - {fileID: 338749906}
+  - {fileID: 338749907}
+  - {fileID: 338749908}
+  - {fileID: 338749909}
+  - {fileID: 338749910}
+  - {fileID: 338749911}
+  - {fileID: 338749912}
+  - {fileID: 338749913}
+  - {fileID: 338749914}
+  - {fileID: 338749915}
+  - {fileID: 338749916}
+  - {fileID: 338749917}
+  - {fileID: 338749918}
+  - {fileID: 338749919}
+  - {fileID: 338749920}
+  - {fileID: 338749921}
+  - {fileID: 338749922}
+  - {fileID: 338749923}
+  - {fileID: 338749924}
+  - {fileID: 338749925}
+  - {fileID: 338749926}
+  - {fileID: 338749927}
+  - {fileID: 338749928}
+  - {fileID: 338749929}
+  - {fileID: 338749930}
+  - {fileID: 338749931}
+  - {fileID: 338749932}
+  - {fileID: 338749933}
+  - {fileID: 338749934}
+  - {fileID: 338749935}
+  - {fileID: 338749936}
+  - {fileID: 338749937}
+  - {fileID: 338749938}
+  - {fileID: 338749939}
+  - {fileID: 338749940}
+  - {fileID: 338749941}
+  - {fileID: 338749942}
+  - {fileID: 338749943}
+  - {fileID: 338749944}
+  - {fileID: 338749945}
+  - {fileID: 338749946}
+  - {fileID: 338749947}
+  - {fileID: 338749948}
+  - {fileID: 338749949}
+  - {fileID: 338749950}
+  - {fileID: 338749951}
+  - {fileID: 338749952}
+  - {fileID: 338749953}
+  - {fileID: 338749954}
+  - {fileID: 338749955}
   Text: 
   IsMainLayout: 1
   clicks:
@@ -4055,6 +4460,81 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1389548373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1389548374}
+  - component: {fileID: 1389548376}
+  - component: {fileID: 1389548375}
+  - component: {fileID: 1389548377}
+  m_Layer: 0
+  m_Name: Finger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1389548374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389548373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.704, z: 0}
+  m_LocalScale: {x: 0.02, y: 0.04, z: 0.02}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1389548375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389548373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317fc8d97c1a0bf4581c141cbcd0a16e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &1389548376
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389548373}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1389548377
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389548373}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1403508897
 GameObject:
   m_ObjectHideFlags: 0
@@ -5259,7 +5739,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20047646658351279}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -5310,7 +5790,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26844662419919633}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -5520,7 +6000,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152955310083761555}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000023, y: 0.00026, z: 0.0002}
@@ -5553,7 +6033,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182104280166912062}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -5716,7 +6196,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281855664700812687}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00029860367, y: 0.00026, z: 0.0002}
@@ -5895,7 +6375,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366455554283245303}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.0002599999, y: 0.00026, z: 0.00019999998}
@@ -6055,7 +6535,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401122468060912855}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -6367,7 +6847,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585220623787483125}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -6768,7 +7248,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767643755909525592}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000023, y: 0.00026, z: 0.0002}
@@ -6936,7 +7416,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832149484400204604}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -7910,7 +8390,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204343365407379891}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -8174,7 +8654,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292043252625279306}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.0002599999, y: 0.00026, z: 0.00019999998}
@@ -8590,7 +9070,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1454576027164184502}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -8684,7 +9164,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502877292079872023}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00040961703, y: 0.00026, z: 0.00019999998}
@@ -8846,7 +9326,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574869080778443637}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -8879,7 +9359,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582813066875042106}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -9220,7 +9700,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801220213919559912}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -9286,7 +9766,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827667731509193746}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -9513,7 +9993,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951922370062068429}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00029860367, y: 0.00026, z: 0.00019999998}
@@ -9633,7 +10113,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980921582732711450}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000006, y: 0.00026, z: 0.00019999998}
@@ -9726,7 +10206,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998131546943874315}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000006, y: 0.00026, z: 0.00019999998}
@@ -9923,7 +10403,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076850630690424105}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00036246912, y: 0.00026, z: 0.00019999998}
@@ -10681,7 +11161,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2430482054586276964}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -10749,7 +11229,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2459513671851794876}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00029860367, y: 0.00026, z: 0.00019999998}
@@ -11043,7 +11523,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2596957925913069922}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000006, y: 0.00026, z: 0.00019999998}
@@ -12335,7 +12815,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3197367264202743091}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -13059,7 +13539,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3559817854256273005}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -13092,7 +13572,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3566207899643645180}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -13214,7 +13694,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3654328044192310132}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -13658,7 +14138,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4032741953859419998}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000023, y: 0.00026, z: 0.0002}
@@ -13911,7 +14391,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4103881766675679728}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -14150,7 +14630,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4262787526377005109}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -14405,7 +14885,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4356877828693582600}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00072336046, y: 0.00026, z: 0.00019999998}
@@ -16037,7 +16517,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5089668104837902729}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -16213,7 +16693,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5164492610615643632}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000006, y: 0.00026, z: 0.00019999998}
@@ -16246,7 +16726,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5194334309967395917}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -16342,7 +16822,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5252682846183075136}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00047916558, y: 0.00026, z: 0.0002}
@@ -17814,7 +18294,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6014503084776110361}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00036246912, y: 0.00026, z: 0.00019999998}
@@ -18362,7 +18842,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6248574976262290588}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -19822,7 +20302,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6972127845314382187}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -19931,7 +20411,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7041628270425656709}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.0005434374, y: 0.00026, z: 0.00019999998}
@@ -19964,7 +20444,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7045030354456062602}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000023, y: 0.00026, z: 0.0002}
@@ -20066,7 +20546,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7100907182031948809}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000023, y: 0.00026, z: 0.0002}
@@ -20212,7 +20692,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7152111983219141697}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -20321,7 +20801,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7178114113106257008}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00029860367, y: 0.00026, z: 0.00019999998}
@@ -20400,7 +20880,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7199088262006344115}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.0002599999, y: 0.00026, z: 0.00019999998}
@@ -20491,7 +20971,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7331741613205538793}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -20524,7 +21004,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7333631255112217610}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -21147,7 +21627,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7623545440899794343}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00046237043, y: 0.00026, z: 0.00019999998}
@@ -21772,7 +22252,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7917349904352884332}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.0002599999, y: 0.00026, z: 0.00019999998}
@@ -21842,7 +22322,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7975042475814363828}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026000023, y: 0.00026, z: 0.0002}
@@ -21945,7 +22425,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8009987137662868370}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00029860367, y: 0.00026, z: 0.00019999998}
@@ -22622,7 +23102,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8416272008121297085}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -22880,7 +23360,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8485173161747517216}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00029860367, y: 0.00026, z: 0.00019999998}
@@ -23112,7 +23592,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8571162131147907193}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -23512,7 +23992,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8707273952749660488}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -23584,7 +24064,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8757042446054738492}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.0005642491, y: 0.00026, z: 0.0002}
@@ -23834,7 +24314,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8869669039616038822}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00026, y: 0.00026, z: 0.00019999998}
@@ -24080,7 +24560,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9014776604635646667}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.0017449999, y: 0.00026, z: 0.0002}
@@ -24113,7 +24593,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9017328541606729413}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
@@ -24413,7 +24893,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9158743094432855773}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00025999994, y: 0.00026, z: 0.00019999998}
