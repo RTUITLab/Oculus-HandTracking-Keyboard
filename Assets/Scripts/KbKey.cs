@@ -25,15 +25,10 @@ public class KbKey : MonoBehaviour
     private float defaultPosition;
     private float pressedPosition;
 
-    private void Awake()
-    {
-        var ovrButton = GetComponent<ButtonController>();
-        if (ovrButton)
-            ovrButton.InteractableStateChanged.AddListener(InteractableStateChanged);
-    }
-
     private void Start()
     {
+        GetComponent<ButtonController>().InteractableStateChanged.AddListener(InteractableStateChanged);
+
         defaultPosition = transform.localPosition.y;
         pressedPosition = defaultPosition - travelDistance;
 
