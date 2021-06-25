@@ -16,7 +16,6 @@ public class KbKey : MonoBehaviour
 
     private Keyboard keyboard;
     private bool canActivate = true;
-    private float colSizeModif = 0.8f; // Less size gives more accuracy
 
     // Press Animation
     private readonly float pressSpeed = 25f;
@@ -26,20 +25,12 @@ public class KbKey : MonoBehaviour
     private float pressedPosition;
 
     private void Start()
-    {
-        GetComponent<ButtonController>().InteractableStateChanged.AddListener(InteractableStateChanged);
-
+    { 
         defaultPosition = transform.localPosition.y;
         pressedPosition = defaultPosition - travelDistance;
 
         keyboard = GetComponentInParent<Keyboard>();
         keyboard.kbKeys.Add(this);
-    }
-
-    private void InteractableStateChanged(InteractableStateArgs state)
-    {
-        if (state.NewInteractableState == InteractableState.ActionState)
-            KeyClicked();
     }
 
     public void KeyClicked()

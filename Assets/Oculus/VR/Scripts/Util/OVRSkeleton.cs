@@ -420,14 +420,14 @@ public class OVRSkeleton : MonoBehaviour
 
 					if (capsuleGO.activeSelf)
 					{
-						capsule.CapsuleRigidbody.MovePosition(bone.position);
-						capsule.CapsuleRigidbody.MoveRotation(bone.rotation);
+						capsule.CapsuleRigidbody.gameObject.transform.position = bone.position;
+						capsule.CapsuleRigidbody.gameObject.transform.rotation = bone.rotation;
 					}
 					else
 					{
 						capsuleGO.SetActive(true);
-						capsule.CapsuleRigidbody.position = bone.position;
-						capsule.CapsuleRigidbody.rotation = bone.rotation;
+						capsule.CapsuleRigidbody.gameObject.transform.position = bone.position;
+						capsule.CapsuleRigidbody.gameObject.transform.rotation = bone.rotation;
 					}
 				}
 				else
