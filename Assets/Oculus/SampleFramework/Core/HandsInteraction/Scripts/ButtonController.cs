@@ -25,7 +25,7 @@ namespace OculusSampleFramework
 
 		[SerializeField] private GameObject _proximityZone = null;
 		[SerializeField] private GameObject _contactZone = null;
-		[SerializeField] private GameObject _actionZone = null;
+		public GameObject _actionZone = null;
 		[SerializeField] private ContactTest[] _contactTests = null;
 		// for positive side tests, the contact position must be on the positive side of the plane
 		// determined by this transform

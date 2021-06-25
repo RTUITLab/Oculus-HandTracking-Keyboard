@@ -27,9 +27,6 @@ public class KbKey : MonoBehaviour
 
     private void Awake()
     {
-        var col = GetComponent<BoxCollider>();
-        col.size = new Vector3(col.size.x * colSizeModif, col.size.y * colSizeModif, col.size.z);
-
         var ovrButton = GetComponent<ButtonController>();
         if (ovrButton)
             ovrButton.InteractableStateChanged.AddListener(InteractableStateChanged);
@@ -43,10 +40,10 @@ public class KbKey : MonoBehaviour
         keyboard = GetComponentInParent<Keyboard>();
         keyboard.kbKeys.Add(this);
     }
-    
+
     private void InteractableStateChanged(InteractableStateArgs state)
     {
-        if (state.NewInteractableState == InteractableState.Default)
+        if (state.NewInteractableState == InteractableState.ActionState)
             KeyClicked();
     }
 
@@ -106,7 +103,7 @@ public class KbKey : MonoBehaviour
         {
             yield return new WaitForSeconds(0.02f);
             position.y -= pressSpeed * 0.00005f;
-            transform.localPosition = position;   
+            transform.localPosition = position;
         }
 
         position.y = pressedPosition;
