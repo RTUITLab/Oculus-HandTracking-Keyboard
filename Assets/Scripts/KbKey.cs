@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using OculusSampleFramework;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -15,6 +16,7 @@ public class KbKey : MonoBehaviour
 
     private Keyboard keyboard;
     private bool canActivate = true;
+    private float colSizeModif = 0.8f; // Less size gives more accuracy
 
     // Press Animation
     private readonly float pressSpeed = 25f;
@@ -23,6 +25,16 @@ public class KbKey : MonoBehaviour
     private float defaultPosition;
     private float pressedPosition;
 
+    private void Awake()
+    {
+        var col = GetComponent<BoxCollider>();
+        col.size = new Vector3(col.size.x * colSizeModif, col.size.y * colSizeModif, col.size.z);
+
+        var ovrButton = GetComponent<ButtonController>();
+        if (ovrButton)
+            ovrButton.InteractableStateChanged.AddListener(InteractableStateChanged);
+    }
+
     private void Start()
     {
         defaultPosition = transform.localPosition.y;
@@ -30,6 +42,12 @@ public class KbKey : MonoBehaviour
 
         keyboard = GetComponentInParent<Keyboard>();
         keyboard.kbKeys.Add(this);
+    }
+    
+    private void InteractableStateChanged(InteractableStateArgs state)
+    {
+        if (state.NewInteractableState == InteractableState.Default)
+            KeyClicked();
     }
 
     public void KeyClicked()
