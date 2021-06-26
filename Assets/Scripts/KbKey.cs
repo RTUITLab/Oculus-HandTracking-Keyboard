@@ -24,6 +24,11 @@ public class KbKey : MonoBehaviour
     private float defaultPosition;
     private float pressedPosition;
 
+    //private void OnEnable()
+    //{
+    //    GetComponent<BoxCollider>().size -= new Vector3(0.0001f, 0.0001f, 0);
+    //}
+
     private void Start()
     { 
         defaultPosition = transform.localPosition.y;
