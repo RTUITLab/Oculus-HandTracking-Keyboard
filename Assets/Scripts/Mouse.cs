@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Mouse : MonoBehaviour
 {
-    [SerializeField] private AudioSource[] clicks;
+    [SerializeField] private AudioSource click;
 
     public void PlayClickSound()
     {
-        int click = Random.Range(0, clicks.Length);
-        clicks[click].Play();
+        click.pitch = Random.Range(0.96f, 1.04f);
+        click.Play();
     }
 }
