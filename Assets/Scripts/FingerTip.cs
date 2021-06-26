@@ -11,5 +11,11 @@ public class FingerTip : MonoBehaviour
         {
             key.KeyClicked();
         }
+
+        var mouse = other.GetComponent<Mouse>();
+        if (mouse)
+        {
+            mouse.PlayClickSound();
+        }
     }
 }
