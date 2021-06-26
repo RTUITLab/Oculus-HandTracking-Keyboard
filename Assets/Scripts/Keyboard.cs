@@ -7,14 +7,14 @@ public class Keyboard : MonoBehaviour
 {
     [HideInInspector] public List<KbKey> kbKeys;
     [Multiline] public string Text;
-    private bool capsPressed = true;
+    public bool IsCapsPressed = true;
     public bool IsMainLayout = true; // English, else Russian
 
     [SerializeField] private AudioSource[] clicks; 
 
     public void AddChar(char input)
     {
-        if (capsPressed)
+        if (IsCapsPressed)
         {
             Text += char.ToUpper(input);
         }
@@ -40,7 +40,7 @@ public class Keyboard : MonoBehaviour
 
     public void ToggleCaps()
     {
-        capsPressed = !capsPressed;
+        IsCapsPressed = !IsCapsPressed;
     }
 
     public void ChangeLayout()
