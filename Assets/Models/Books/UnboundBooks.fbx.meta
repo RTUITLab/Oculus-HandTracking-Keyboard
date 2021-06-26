@@ -3,7 +3,22 @@ guid: 921fac4844bf9614ea328bc0887dc733
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Books_Shader
+    second: {fileID: 2100000, guid: cfa6caf31d3128f4f992a741886f6b14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: fd9bfddb64b30ce4790851fd505574fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 8c8e9804b0887d249ab11fb62586934a, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

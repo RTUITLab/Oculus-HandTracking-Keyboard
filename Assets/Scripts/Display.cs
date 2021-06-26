@@ -11,8 +11,12 @@ public class Display : MonoBehaviour
 
     private void Update()
     {
+        // Ah yes, Update for this. Just because this isn't so important but will take some time for right solution.
         inputField.text = keyboard.Text;
 
-        info.text = $"{(keyboard.IsCapsPressed ? "CAPS" : "")}   {(keyboard.IsMainLayout ? "ENG" : "RUS")}";
+        if (keyboard.JokeTyping)
+            info.text = $"{(keyboard.IsCapsPressed ? "CAPS" : "")}   {(keyboard.IsMainLayout ? "ENG" : "РУС")}";
+        else
+            info.text = "PRO MODE";
     }
 }
