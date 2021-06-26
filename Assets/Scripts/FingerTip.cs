@@ -15,7 +15,7 @@ public class FingerTip : MonoBehaviour
         var mouse = other.transform.parent.GetComponent<Mouse>();
         if (mouse)
         {
-            mouse.PlayClickSound();
+            mouse.KeyClicked();
         }
     }
 }
