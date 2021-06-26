@@ -44,7 +44,10 @@ public class KbKey : MonoBehaviour
     {
         if (!canActivate) return;
 
-        ClickAction();
+        if (keyboard.JokeTyping)
+            keyboard.AddJokeChar(); // Joke type
+        else
+            ClickAction(); // Default action
 
         keyboard.PlayClickSound();
         StartCoroutine(ClickAnimation());

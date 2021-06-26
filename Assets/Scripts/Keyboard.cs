@@ -10,7 +10,12 @@ public class Keyboard : MonoBehaviour
     public bool IsCapsPressed = true;
     public bool IsMainLayout = true; // English, else Russian
 
-    [SerializeField] private AudioSource[] clicks; 
+    [SerializeField] private AudioSource[] clicks;
+
+    [Header("Every click adds correct char")]
+    public bool JokeTyping = false;
+    [SerializeField, Multiline] private string textToJokeType;
+    private int currentJokeChar = 0;
 
     public void AddChar(char input)
     {
@@ -21,6 +26,15 @@ public class Keyboard : MonoBehaviour
         else
         {
             Text += char.ToLower(input);
+        }
+    }
+
+    public void AddJokeChar()
+    {
+        if (currentJokeChar < textToJokeType.Length)
+        {
+            Text += textToJokeType[currentJokeChar];
+            currentJokeChar++;
         }
     }
 

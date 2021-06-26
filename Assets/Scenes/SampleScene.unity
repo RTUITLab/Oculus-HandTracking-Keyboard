@@ -5035,6 +5035,128 @@ MonoBehaviour:
   - {fileID: 338749953}
   - {fileID: 338749954}
   - {fileID: 338749955}
+  - {fileID: 338749875}
+  - {fileID: 338749876}
+  - {fileID: 338749877}
+  - {fileID: 338749878}
+  - {fileID: 338749879}
+  - {fileID: 338749880}
+  - {fileID: 338749881}
+  - {fileID: 338749882}
+  - {fileID: 338749883}
+  - {fileID: 338749884}
+  - {fileID: 338749885}
+  - {fileID: 338749886}
+  - {fileID: 338749887}
+  - {fileID: 338749888}
+  - {fileID: 338749889}
+  - {fileID: 338749890}
+  - {fileID: 338749891}
+  - {fileID: 338749892}
+  - {fileID: 338749893}
+  - {fileID: 338749894}
+  - {fileID: 338749895}
+  - {fileID: 338749896}
+  - {fileID: 338749897}
+  - {fileID: 338749898}
+  - {fileID: 338749899}
+  - {fileID: 338749900}
+  - {fileID: 338749901}
+  - {fileID: 338749902}
+  - {fileID: 338749903}
+  - {fileID: 338749904}
+  - {fileID: 338749905}
+  - {fileID: 338749906}
+  - {fileID: 338749907}
+  - {fileID: 338749908}
+  - {fileID: 338749909}
+  - {fileID: 338749910}
+  - {fileID: 338749911}
+  - {fileID: 338749912}
+  - {fileID: 338749913}
+  - {fileID: 338749914}
+  - {fileID: 338749915}
+  - {fileID: 338749916}
+  - {fileID: 338749937}
+  - {fileID: 338749938}
+  - {fileID: 338749939}
+  - {fileID: 338749940}
+  - {fileID: 338749941}
+  - {fileID: 338749942}
+  - {fileID: 338749943}
+  - {fileID: 338749944}
+  - {fileID: 338749945}
+  - {fileID: 338749946}
+  - {fileID: 338749947}
+  - {fileID: 338749948}
+  - {fileID: 338749949}
+  - {fileID: 338749950}
+  - {fileID: 338749951}
+  - {fileID: 338749952}
+  - {fileID: 338749953}
+  - {fileID: 338749954}
+  - {fileID: 338749955}
+  - {fileID: 338749875}
+  - {fileID: 338749876}
+  - {fileID: 338749877}
+  - {fileID: 338749878}
+  - {fileID: 338749879}
+  - {fileID: 338749880}
+  - {fileID: 338749881}
+  - {fileID: 338749882}
+  - {fileID: 338749883}
+  - {fileID: 338749884}
+  - {fileID: 338749885}
+  - {fileID: 338749886}
+  - {fileID: 338749887}
+  - {fileID: 338749888}
+  - {fileID: 338749889}
+  - {fileID: 338749890}
+  - {fileID: 338749891}
+  - {fileID: 338749892}
+  - {fileID: 338749893}
+  - {fileID: 338749894}
+  - {fileID: 338749895}
+  - {fileID: 338749896}
+  - {fileID: 338749897}
+  - {fileID: 338749898}
+  - {fileID: 338749899}
+  - {fileID: 338749900}
+  - {fileID: 338749901}
+  - {fileID: 338749902}
+  - {fileID: 338749903}
+  - {fileID: 338749904}
+  - {fileID: 338749905}
+  - {fileID: 338749906}
+  - {fileID: 338749907}
+  - {fileID: 338749908}
+  - {fileID: 338749909}
+  - {fileID: 338749910}
+  - {fileID: 338749911}
+  - {fileID: 338749912}
+  - {fileID: 338749913}
+  - {fileID: 338749914}
+  - {fileID: 338749915}
+  - {fileID: 338749916}
+  - {fileID: 338749937}
+  - {fileID: 338749938}
+  - {fileID: 338749939}
+  - {fileID: 338749940}
+  - {fileID: 338749941}
+  - {fileID: 338749942}
+  - {fileID: 338749943}
+  - {fileID: 338749944}
+  - {fileID: 338749945}
+  - {fileID: 338749946}
+  - {fileID: 338749947}
+  - {fileID: 338749948}
+  - {fileID: 338749949}
+  - {fileID: 338749950}
+  - {fileID: 338749951}
+  - {fileID: 338749952}
+  - {fileID: 338749953}
+  - {fileID: 338749954}
+  - {fileID: 338749955}
   Text: 
   IsCapsPressed: 1
   IsMainLayout: 1
@@ -5045,6 +5167,39 @@ MonoBehaviour:
   - {fileID: 968845586}
   - {fileID: 634560391}
   - {fileID: 727293866}
+  JokeTyping: 1
+  textToJokeType: 'The lazy artist-boor is blacking
+
+    The genius''s picture with
+    his stuff,
+
+    Without any sense a-making
+
+    His low drawing above.
+
+    
+
+    But
+    alien paints, in stride of years,
+
+    Are falling down as a dust,
+
+    The
+    genius''s masterpiece appears
+
+    With former brilliance to us.
+
+    
+
+    Like
+    this, the darkly apparitions
+
+    Are leaving off my tortured heart,
+
+    And
+    it again revives the visions
+
+    Of virgin days I left behind.'
 --- !u!114 &338749875
 MonoBehaviour:
   m_ObjectHideFlags: 0
