@@ -17,6 +17,8 @@ public class Display : MonoBehaviour
         if (keyboard.JokeTyping)
             info.text = "PRO MODE";
         else
-            info.text = $"{(keyboard.IsCapsPressed ? "CAPS" : "")}   {(keyboard.IsMainLayout ? "ENG" : "РУС")}";
+            info.text = $"{(keyboard.IsShiftPressed ? "SHIFT" : "")}   " +
+                        $"{(keyboard.IsCapsPressed ? "CAPS" : "")}   " +  
+                        $"{(keyboard.IsMainLayout ? "ENG" : "РУС")}";
     }
 }

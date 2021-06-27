@@ -7,7 +7,8 @@ public class Keyboard : MonoBehaviour
 {
     [HideInInspector] public List<KbKey> kbKeys;
     [Multiline] public string Text;
-    public bool IsCapsPressed = true;
+    public bool IsCapsPressed = false;
+    public bool IsShiftPressed = false;
     public bool IsMainLayout = true; // English, else Russian
 
     [SerializeField] private AudioSource[] clicks;
@@ -19,7 +20,7 @@ public class Keyboard : MonoBehaviour
 
     public void AddChar(char input)
     {
-        if (IsCapsPressed)
+        if (IsCapsPressed || IsShiftPressed)
         {
             Text += char.ToUpper(input);
         }
@@ -27,6 +28,8 @@ public class Keyboard : MonoBehaviour
         {
             Text += char.ToLower(input);
         }
+
+        IsShiftPressed = false;
     }
 
     public void AddJokeChar()
@@ -55,6 +58,11 @@ public class Keyboard : MonoBehaviour
     public void ToggleCaps()
     {
         IsCapsPressed = !IsCapsPressed;
+    }
+
+    public void ToggleShift()
+    {
+        IsShiftPressed = !IsShiftPressed;
     }
 
     public void ChangeLayout()

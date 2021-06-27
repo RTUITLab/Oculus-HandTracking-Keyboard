@@ -78,6 +78,9 @@ public class KbKey : MonoBehaviour
             case Keys.Caps:
                 keyboard.ToggleCaps();
                 break;
+            case Keys.Shift:
+                keyboard.ToggleShift();
+                break;
             case Keys.Clear:
                 keyboard.ClearAll();
                 break;
@@ -174,6 +177,6 @@ public class KbKey : MonoBehaviour
 
 public enum Keys
 {
-    None, Symbol, Enter, Space, Caps,
+    None, Symbol, Enter, Space, Caps, Shift,
     Clear, Backspace, Tab, SwitchLayout
 }
