@@ -18,7 +18,7 @@ public class Display : MonoBehaviour
             info.text = "PRO MODE";
         }
         else {
-            if (!keyboard.IsShiftPressed) // Display shift or caps only, not both
+            if (keyboard.IsShiftPressed) // Display shift or caps only, not both
                 info.text = "SHIFT   ";
             else
                 info.text = $"{(keyboard.IsCapsPressed ? "CAPS" : "")}   ";
