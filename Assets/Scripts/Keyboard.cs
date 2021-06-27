@@ -58,11 +58,17 @@ public class Keyboard : MonoBehaviour
     public void ToggleCaps()
     {
         IsCapsPressed = !IsCapsPressed;
+
+        if (IsCapsPressed) // Can't turn shift on while caps do the same thing
+            IsShiftPressed = false;
     }
 
     public void ToggleShift()
     {
         IsShiftPressed = !IsShiftPressed;
+
+        if (IsCapsPressed) // Can't turn shift on while caps do the same thing
+            IsShiftPressed = false;
     }
 
     public void ChangeLayout()
