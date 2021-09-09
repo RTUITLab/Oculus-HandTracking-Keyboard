@@ -20,7 +20,7 @@
 
 # Videos
 
-* https://vk.cc/c4BWC7
+* https://youtu.be/V3ekuwMH8WU
 ---
 
 # Tags
