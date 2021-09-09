@@ -20,10 +20,12 @@
 
 # Videos
 
+* https://vk.cc/c4BWC7
 ---
 
 # Tags
 * VR
+* Game
 ---
 # Tech
 * Unity
@@ -37,6 +39,6 @@
 # SourceCode
 | name                                          | link                                          |
 | --------------------------------------------- | -----------------------------------------     |
-| Проект | https://github.com/RTUITLab/Oculus-HandTracking-Keyboard   |
+| Исходный код | https://github.com/RTUITLab/Oculus-HandTracking-Keyboard   |
 
 ---
